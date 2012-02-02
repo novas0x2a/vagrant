@@ -4,6 +4,7 @@
   - `vagrant ssh` does a direct `exec()` syscall now instead of going through
     the shell. This makes it so things like shell expansion oddities no longer
     cause problems. [GH-715]
+  - NFS should work properly on Gentoo. [GH-706]
 
 ## 0.9.5 (February 5, 2012)
 
